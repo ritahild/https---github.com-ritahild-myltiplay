@@ -13,19 +13,19 @@ Widget build(BuildContext context) {
 	debugShowCheckedModeBanner: false, 
 	title: 'Калькулятор возраста', 
 	theme: ThemeData(primarySwatch: Colors.deepOrange), 
-	home: const HomeScreen(), 
+	home: const CalcScreen(), 
 	); 
 } 
 } 
 
-class HomeScreen extends StatefulWidget { 
-const HomeScreen({Key? key}); 
+class CalcScreen extends StatefulWidget { 
+const CalcScreen({Key? key}); 
 
 @override 
-State<HomeScreen> createState() => _HomeScreenState(); 
+State<CalcScreen> createState() => _CalcScreenState(); 
 } 
 
-class _HomeScreenState extends State<HomeScreen> { 
+class _CalcScreenState extends State<CalcScreen> { 
 String myAge = ''; 
 
 @override 

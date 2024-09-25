@@ -5,7 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_siva/calcylator.dart';
 
 import 'package:flutter_siva/start.dart';
-import 'package:flutter_siva/tex.dart';
+
 import 'package:flutter_siva/tictoc.dart';
 import 'package:flutter_siva/time.dart'; 
 
@@ -22,10 +22,10 @@ Widget build(BuildContext context) {
   return MaterialApp(
     routes: {
       '/': (context) => Rec(),
-      // '/tex': (context) => tes(),
+      
       '/tictoc': (context) => tic(),
       '/calcylator': (context) => Calc(),
-      '/time':(contex)=> age(),
+      '/time':(contex)=> watch(),
       
     },
     
