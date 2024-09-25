@@ -6,10 +6,10 @@ class tic extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      title: 'Крестики нолики', 
-      debugShowCheckedModeBanner: false, 
-      home: TicTacPage(), 
+    return Scaffold(
+        appBar: AppBar(
+          title: Text('Часы'),
+        ),
     );
   }
 }

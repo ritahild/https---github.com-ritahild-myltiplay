@@ -9,11 +9,16 @@ const Calc({Key? key});
 
 @override 
 Widget build(BuildContext context) { 
-	return MaterialApp( 
-	debugShowCheckedModeBanner: false, 
-	title: 'Калькулятор возраста', 
-	theme: ThemeData(primarySwatch: Colors.deepOrange), 
-	home: const CalcScreen(), 
+	return Scaffold( 
+    appBar: AppBar(
+       title: Text('Калькулятор возраста'),
+       
+
+	
+    ),
+   
+	
+	 
 	); 
 } 
 } 
